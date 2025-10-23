@@ -7,6 +7,7 @@ def main():
     This file only coordinates which module to run (YOLO, XAI, or ROS).
     """
     # Example: Run YOLO pipeline (later switchable to ROS or XAI)
+    seg_model = "yolov8n-seg.pt"
     pipeline = YOLOPipeline(model_path="yolov8n.pt", conf_thres=0.4)
     pipeline.setup()
 
