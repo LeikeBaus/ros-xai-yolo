@@ -1,0 +1,20 @@
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# Docker
+*.vhdx
+*.tar
+*.img
+*.log
+*.pid
+docker-compose.override.yml
+
+# System
+.DS_Store
+.ssh/
+Thumbs.db
